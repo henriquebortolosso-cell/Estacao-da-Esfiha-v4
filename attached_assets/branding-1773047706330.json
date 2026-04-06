@@ -1,0 +1,141 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "Public Sans",
+      "role": "body"
+    }
+  ],
+  "colors": {
+    "primary": "#930B24",
+    "accent": "#D21033",
+    "background": "#F6F6F6",
+    "textPrimary": "#D21033",
+    "link": "#D21033"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Public Sans",
+      "heading": "Public Sans"
+    },
+    "fontStacks": {
+      "heading": [
+        "Public Sans",
+        "sans-serif"
+      ],
+      "body": [
+        "Public Sans",
+        "sans-serif"
+      ],
+      "paragraph": [
+        "Public Sans",
+        "sans-serif"
+      ]
+    },
+    "fontSizes": {
+      "h1": "120px",
+      "h2": "38px",
+      "body": "24px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "10px"
+  },
+  "components": {
+    "input": {
+      "background": "#000000",
+      "textColor": "#FFFFFF",
+      "borderColor": "#E6E4E4",
+      "borderRadius": "10px",
+      "borderRadiusCorners": {
+        "topLeft": "10px",
+        "topRight": "10px",
+        "bottomRight": "10px",
+        "bottomLeft": "10px"
+      },
+      "shadow": "none"
+    },
+    "buttonPrimary": {
+      "background": "#D21033",
+      "textColor": "#FFFFFF",
+      "borderColor": "#D21033",
+      "borderRadius": "9.99px",
+      "borderRadiusCorners": {
+        "topLeft": "9.99px",
+        "topRight": "9.99px",
+        "bottomRight": "9.99px",
+        "bottomLeft": "9.99px"
+      },
+      "shadow": "none"
+    },
+    "buttonSecondary": {
+      "background": "#000000",
+      "textColor": "#FFFFFF",
+      "borderRadius": "0px",
+      "borderRadiusCorners": {
+        "topLeft": "0px",
+        "topRight": "0px",
+        "bottomRight": "0px",
+        "bottomLeft": "0px"
+      },
+      "shadow": "none"
+    }
+  },
+  "images": {
+    "logo": "File saved at: attached_assets/logo.svg",
+    "favicon": "File saved at: attached_assets/favicon.svg",
+    "ogImage": "File saved at: attached_assets/ogImage.jpg",
+    "logoHref": "https://www.fiveguys.com/",
+    "logoAlt": "Five Guys"
+  },
+  "__llm_logo_reasoning": {
+    "selectedIndex": 0,
+    "reasoning": "Selected #0 because it is visible, located in the header, links to the homepage, and has alt text matching the brand name 'Five Guys'.",
+    "confidence": 0.95,
+    "source": "llm"
+  },
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": 2,
+      "text": "Start Your Order",
+      "reasoning": "Button #4 'Start Your Order' uses the vibrant brand color #D21033 and has action-oriented text, making it the primary CTA."
+    },
+    "secondary": {
+      "index": 0,
+      "text": "Start Your Order",
+      "reasoning": "Button #3 'Start Your Order' has a different background color (#000000) and complements the primary CTA with similar action-oriented text."
+    },
+    "confidence": 0.95
+  },
+  "personality": {
+    "tone": "bold",
+    "energy": "high",
+    "targetAudience": "fast food consumers"
+  },
+  "designSystem": {
+    "framework": "custom",
+    "componentLibrary": ""
+  },
+  "confidence": {
+    "buttons": 0.95,
+    "colors": 0.9,
+    "overall": 0.925
+  },
+  "__llm_metadata": {
+    "logoSelection": {
+      "llmCalled": true,
+      "llmSucceeded": true,
+      "finalSource": "llm",
+      "rawLogoSelection": {
+        "selectedLogoIndex": 0,
+        "selectedLogoReasoning": "Selected #0 because it is visible, located in the header, links to the homepage, and has alt text matching the brand name 'Five Guys'.",
+        "confidence": 0.95
+      }
+    },
+    "buttonClassification": {
+      "llmCalled": true,
+      "llmSucceeded": true
+    }
+  }
+}
